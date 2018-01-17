@@ -1,0 +1,77 @@
+*{
+margin:0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrap{
+	//width: 980px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 100%;
+}
+body{
+font: normal 14px/22px Arial; 
+color: #444;
+background: #fefefa url("img/bg.jpg") top left repeat;
+}
+p{
+margin-bottom: 15px;
+}
+h1{
+
+}
+h2{
+
+}
+a{
+
+}
+a:hover{
+
+}
+header{
+height: 148px;
+background: white url("img/logo-bg.jpg") top left no-repeat;
+
+}
+header .logo{
+	float: left;
+	padding-top: 51px;
+	padding-left: 29px;
+
+}
+header .contacts{
+	text-align: right;
+	float: right;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+
+header .contacts p{
+	font: bold 18px/14px Arial;
+	color: #000;
+}
+
+header .contacts .green{
+	color: #1d8b15;
+	font: normal 14px/14px Arial;
+}
+header .contacts .grey{
+	color: #666;
+	font: normal 12px/14px Arial;
+}
+.content{
+
+}
+footer{
+height:72px;
+background-color: #fff; 
+border-top: 3px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
